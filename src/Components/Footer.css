@@ -1,0 +1,29 @@
+.footer{
+    
+    background-color: rgba(180, 180, 179, 0.863);
+}
+
+
+hr{
+    height: 4px;
+    margin-top: 20%;
+    background-color: black;}
+
+
+th{
+    padding-left: 65px;
+}
+
+td{
+    padding-left: 65px;
+}
+
+.last{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(20, 58, 102);
+    height: 50px;
+
+}
