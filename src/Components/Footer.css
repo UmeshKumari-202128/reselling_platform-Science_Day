@@ -3,6 +3,12 @@
     background-color: rgba(180, 180, 179, 0.863);
 }
 
+.first{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 hr{
     height: 4px;
@@ -24,6 +30,12 @@ td{
     font-weight: bold;
     font-size: 15px;
     background-color: rgb(20, 58, 102);
-    height: 50px;
+    height: 100%;
 
 }
+
+#gap{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
