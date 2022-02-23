@@ -10,8 +10,7 @@ import "./App.css";
 
 function App() {
   return (<>
-<About/>
-<ContactUs/>
+
 <Footer/>
 
     </>
