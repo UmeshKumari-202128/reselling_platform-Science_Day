@@ -1,4 +1,6 @@
-import React from "react";
+
+import React,{Fragment} from 'react';
+
 
 import { GrInstagram } from "react-icons/gr";
 import { BsFacebook } from "react-icons/bs";
@@ -11,6 +13,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
+    <Fragment>
     <div className="footer">
       <hr></hr>
       <div className="first">
@@ -33,19 +36,19 @@ function Footer() {
               <a href="#">Kolkata</a>
             </td>
             <td id="gap">
-              <a href="#">
+              <a href="www.facebook.com">
                 <BsFacebook
                   style={{ fontSize: "200%", color: "black", margin: "7px" }}
                 />
               </a>
               <br />
-              <a href="#">
+              <a href="www.instagram.com">
                 <GrInstagram
                   style={{ fontSize: "200%", color: "black", margin: "7px" }}
                 />
               </a>
               <br />
-              <a href="#">
+              <a href="www.twitter.com">
                 <FaTwitterSquare
                   style={{ fontSize: "200%", color: "black", margin: "7px" }}
                 />
@@ -95,7 +98,7 @@ function Footer() {
        Central University of Haryana,
         <AiOutlineCopyrightCircle /> 2022
       </div>
-    </div>
+    </div></Fragment>
   );
 }
 

@@ -1,9 +1,11 @@
-import React from "react";
+
+import React,{Fragment} from 'react';
 import "./ContactUs.css";
 import back from "./images/back.jfif";
 
 function ContactUs() {
   return (
+    <Fragment>
     <div>
       <div className="port1">
         <img id="logo" src={require("./images/logo3.jfif").default} />
@@ -34,6 +36,7 @@ function ContactUs() {
       
       </div>
     </div>
+    </Fragment>
   );
 }
 
